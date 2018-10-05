@@ -1,0 +1,123 @@
+/**
+" A Property Of Brainz Tech Inc. All Rights Reserved"
+<!-- 
+*Author: Edwin Asare (Dr.Brainz)
+*Author URL: http://www.braintech.cf
+*Author Email: brainztech08@gmail.com
+*Author Email: info@brainztech.cf.com
+*Copyright(c) 2018 Brainz Tech Inc. All Rights Reserved
+*This is a Premium Web Hosting theme for your hosting company,you may edit it per your needs.
+*Contact the author or visit our website for more premium themes for your project.
+
+Why Responsive.CSS
+-We use this syles to add more responsiveness to the theme.
+-You can edit per your needs.
+
+**Note: Show some love for our hardwork by remaining the footer credit which link back to our website.
+  Or you can use your own means to link back to website.
+  Thanks.
+
+  NB: Please in this theme, we use our own pictures, texts, fonts & styles. You can add your own 
+      according to your needs.
+      Thanks.
+**
+-->
+**/
+
+/** Top Navigation  **/
+@media only screen and (max-width: 479px){
+.topNav ul.left {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 479px){
+.topNav ul.left li {
+    padding: 6px 14px;
+  }
+}
+
+@media only screen and (max-width: 479px){
+.topNav ul.right-nav{
+    display: none;
+ }
+}
+
+/** End of Top Navigation  **/
+
+
+/** Main Nav **/
+@media (max-width: 991.98px){
+.main-nav .navbar-expand-lg .container{
+    padding-right: 0;
+    padding-left: 1rem;
+    background-color: #272727!important;
+    color: #fff!important;
+}
+}
+
+@media (max-width: 991.98px){
+.navbar-brand {
+    background-color: #fff!important;
+}
+}
+
+@media (max-width: 991.98px){
+.navbar-brand:hover {
+    background-color: ##dc3545!important;
+}
+}
+
+@media (max-width: 991.98px){
+.navbar-light .navbar-nav .nav-link {
+    color: #fff!important;
+}
+}
+
+@media (max-width: 991.98px){
+.dropdown-content .a{
+	background-color: rgba(0, 0, 0, 0.81);
+}
+}
+
+@media (max-width: 991.98px){
+.dropdown-content .a{
+    color: #fff!important;
+}
+}
+@media (max-width: 991.98px){
+.dropdown-content {
+    background-color: #272727!important;
+}
+}
+
+/** End of Main Nav */
+
+
+/** Footer **/
+@media (max-width: 991.98px){
+.middle {
+	position: relative;
+    right: 0px;
+    width: 300px;
+    padding: 50px;
+    text-align: center;
+}
+}
+
+@media (max-width: 991.98px){
+.middle img, .middle span {
+    padding-top: 1.5rem;
+}
+}
+
+@media (max-width: 991.98px){
+.middle span {
+    padding-left: 3rem;
+    margin-top: 2rem;
+}
+}
+
+/** End of Footer **/
+
+/** Visit https;//brainztech.cf for more templates **/
